@@ -1,0 +1,13 @@
+@echo off
+chcp 65001 >nul
+cd /d "%~dp0"
+if not exist .venv\Scripts\python.exe (
+    echo [ERROR] 未找到 .venv，请先运行 setup.bat
+    pause
+    exit /b 1
+)
+if "%~1"=="server" (
+    .venv\Scripts\python.exe -m music_mcp
+) else (
+    .venv\Scripts\python.exe bridge.py %*
+)

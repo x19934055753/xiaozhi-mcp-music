@@ -1,0 +1,17 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+cache/
+.env
+logs/
+mcp_config.json
+*.log
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+work/
+outputs/
