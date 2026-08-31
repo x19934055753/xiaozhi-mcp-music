@@ -34,6 +34,11 @@ dependencies = [
 [project.scripts]
 xiaozhi-music-mcp = "music_mcp.__main__:main"
 
+[project.urls]
+Homepage = "https://github.com/ABUGG-007/xiaozhi-mcp-music"
+Repository = "https://github.com/ABUGG-007/xiaozhi-mcp-music"
+Issues = "https://github.com/ABUGG-007/xiaozhi-mcp-music/issues"
+
 [tool.setuptools]
 packages = ["music_mcp", "music_mcp.sources"]
 
